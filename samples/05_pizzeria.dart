@@ -138,6 +138,9 @@ void main() {
           cartSizes.clear();
           cartPrices.clear();
 
+
+
+
           stdout.write("\n${PizzaConfig.newOrderPrompt}");
           String? restartInput = stdin.readLineSync()?.toUpperCase();
           if (restartInput != "Y") {
